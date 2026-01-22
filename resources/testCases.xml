@@ -7,7 +7,7 @@
     <test name="JPTest_Suite 20250804_1">
         <classes>
             <class name="tests.LoginTest"/>
-<!--            <class name="tests.Navigation"/>-->
+            <class name="tests.Navigation"/>
 <!--                        <class name="tests.CreateAlertsForMigration"/>-->
 <!--                        <class name="tests.SetAllAlert">-->
 <!--                          <methods>-->
