@@ -49,7 +49,7 @@ pipeline {
         }
 
         failure {
-            echo 'Pipeline faileds'
+            echo 'Pipeline failedss'
         }
     }
 }
