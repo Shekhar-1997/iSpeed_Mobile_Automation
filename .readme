@@ -1,0 +1,35 @@
+# Push Notification ISpeed Automation Tests
+
+This project contains automation tests for the Push Notification ISpeed application using Appium and TestNG.
+
+## Prerequisites
+- Java Development Kit (JDK) 1.8 or higher installed
+- Apache Maven installed
+- Appium server installed and running
+- Android SDK installed with required platforms and tools
+- iOS simulator or device set up for iOS testing (if applicable)
+
+## Setup Instructions
+1. Clone this repository to your local machine.
+2. Install the necessary dependencies by running the following Maven command:
+3. Update the `credentials.properties` file with your username and password for the application.
+4. Make sure the Appium server is running.
+5. Execute the tests using Maven with the appropriate parameters:
+- For Android:
+  ```
+  mvn clean test -DdriverType=android
+  ```
+- For iOS:
+  ```
+  mvn clean test -DdriverType=ios
+  ```
+
+## Project Structure
+- `src/test/java`: Contains the test classes.
+- `src/test/resources`: Contains test data and configuration files.
+- `pom.xml`: Maven project configuration file.
+
+## Additional Notes
+- Make sure to update the `credentials.properties` file with valid credentials before running the tests.
+- Ensure that the Appium server is running before executing the tests.
+- You may need to adjust the capabilities in the `BaseTest.java` class based on your testing environment.

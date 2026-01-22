@@ -1,0 +1,188 @@
+[
+  {
+    "SectionName": "Account Details for Login",
+    "username":"SL750130",
+    "password":"passwd",
+    "usernameTwo":"SL660804",
+    "passwordTwo":"passwd",
+    "usernameThree":"SL660805",
+    "passwordThree":"passwd",
+    "usernameFour":"SL660806",
+    "passwordFour":"passwd",
+    "usernameFive":"SL660807",
+    "passwordFive":"passwd",
+    "lossMarginClientCd": "660803",
+
+    "SectionName": "Account Details for Amazon AWS login",
+    "account": "721709919548",
+    "userNameAWS": "ts-m.kalasannanavar",
+    "passwordAWS": "K0kYTkok9xMBVkk",
+
+    "SectionName": "Account Device control number and clientCode,BranchCode details",
+    "accDeviceCtrlNo":"11987234",
+    "clientCode":"0b2UeTus058EEGmgP2mhKw==",
+    "branchCode":"p6Trbu4rlgjN40/hhirgCg==",
+    "accDeviceCtrlNoTwo":"3867255",
+    "clientCodeTwo":"AkcPDL8MioYJPVd03CwGcg==",
+
+    "SectionName": "DeviceID",
+    "udid":"ZD2223GBM6",
+
+    "SectionName": "appium server url",
+    "appiumurl":"http://192.168.1.176:4723",
+
+    "SectionName": "path of .apk file",
+    "appPath" : "/resources/App/ispeedForAndroid.apk",
+
+
+    "SectionName": "Japan stock code",
+    "stockCode": "4635",
+
+    "SectionName": "Japan stock code details for Triggering alerts",
+    "jpStockpriceUp": "5423",
+    "jpStockpriceDown": "3415",
+    "jpStockpreviousUp": "2760",
+    "jpStockpreviousDown": "8035",
+
+    "SelectStocksFromSettingsNavigation": "Japan stock code details ",
+    "jpStock1": "5074",
+    "jpStock2": "7814",
+    "jpStock3": "3067",
+    "jpStock4": "3415",
+    "jpStock5": "4186",
+    "usStock1": "Gold先物(COMEX)",
+    "usStock2": "NQドラゴン・チャイナ株",
+    "usStock3": "GBLI",
+    "indexSakimono1": "mini Dow(期近)",
+    "indexSakimono2":"NQ米国中型株",
+    "indexAlertUS1":"NQ米国大型株",
+
+    "SectionName": "Japan and Index stock price input details.",
+    "domesticIncrementAmount": 1,
+    "domesticDecrementAmount": 1,
+    "previousDayRatioIncrementAmount1": 0.01,
+    "previousDayRatioDecrementAmount1": 0.01,
+
+    "SectionName": "Suffix and Prefix",
+    "prefix": "AI",
+    "suffixCurrentDay": "EAS_CD",
+    "suffixPreviousDay": "EAS_PD",
+    "suffixAlertStatusList":"ASL",
+    "suffixEditAlertSettingScreen":"EASL",
+    "suffixLoginScreen":"LS",
+    "suffixMainMenu":"MM",
+    "suffixAlertSettingScreen":"ASS",
+    "suffixJapanOrderHoldingsTab":"OH",
+    "suffixJapanOrderEnquiryTab":"OI",
+    "suffixJapanOrderContractEnquiryTab":"OC",
+    "suffixUSOrderHoldingsTab":"OH_U",
+    "suffixUSOrderEnquiryTab":"OI_U",
+    "suffixUSOrderContractEnquiryTab": "OC_U",
+    "suffixOrderSellJP":"OS",
+    "suffixOrderSellUS":"OS_U",
+    "textFileExtension":".txt",
+    "imageFileExtension":".png",
+
+
+    "SectionName": "US stock tickerCode for not triggering(update & disable)",
+    "stockNameUS": "USFD",
+
+    "SectionName": "US stock tickerCode details for Triggering alerts",
+    "tickerCodePriceUp": "USB",
+    "tickerCodePriceDown": "USIO",
+    "tickerCodePreviousDayUp": "USAU",
+    "tickerCodePreviousDayDown": "USCB",
+
+    "SectionName": "US stock price input details.",
+    "usIncrementAmount": 0.01,
+    "usDecrementAmount": 0.01,
+    "uspreviousDayRatioIncrementAmount": 0.01,
+    "uspreviousDayRatioDecrementAmount": 0.01,
+
+    "SectionName": "IndexJapan stockName",
+    "indexNippon": "JPX日経400",
+
+    "SectionName": "IndexJapan stockName details for Triggering alerts",
+    "indexJPstockpriceUp": "JPX日経400",
+    "indexJPstockpricedown": "日経225",
+    "indexJPstockpreviousUp": "JPX日経400",
+    "indexJPstockpreviousDown": "日経225",
+
+    "SectionName": "IndexUS stockName",
+    "indexUS": "NQ米国大型株",
+
+    "SectionName": "IndexUS stockName details for Triggering alerts",
+    "indexUSstockpriceUp": "NQ米国大型株",
+    "indexUSstockpriceDown": "NQ米国大型株",
+    "indexUSstockpreviousUp": "NQ米国中型株",
+    "indexUSstockpreviousDown": "NQ米国大型株",
+
+    "SectionName": "IndexFuture stockName",
+    "indexSakimono": "日経225先物(期近)",
+
+    "SectionName": "IndexFuture stockName details for Triggering alerts",
+    "indexFutureStockPriceUp": "日経225先物(期近)",
+    "indexFutureStockPriceDown": "日経225先物(期近)",
+    "indexFutureStockPreviousUp": "日経225先物(期近)",
+    "indexFutureStockPreviousDown": "日経225先物(期近)",
+
+    "SectionName": "Index stock priceUp and priceDown input details.",
+    "indexIncrementAmount": 0.1,
+    "indexDecrementAmount": 0.1,
+
+    "SectionName": "Input details for Japan Buy and Sell Order execution",
+    "stockCodeBuySell": "3415",
+    "quantity": "100",
+    "passPin": "1234",
+    "sellQuantity": "10",
+
+
+    "SectionName": "price detail for updating all type of alerts",
+    "updateIncrementAmount": 1,
+    "updateDecrementAmount": 1,
+    "updatePreviousDayRatioIncrementAmount": 0.1,
+    "updatePreviousDayRatioDecrementAmount": 0.1,
+
+    "SectionName": "Multiple user details for single device",
+    "multipleAccountStockCode2": "5423",
+    "multipleAccountUSstockName": "AAPL",
+    "multipleAccountStockCode3": "1945",
+
+    "SectionName": "DB endpoints",
+    "endpointCoreDB": " http://localhost:9090/api/coredb/query?dbId=3",
+    "endpoinPushdb": "http://localhost:9090/api/pushadmin/query",
+
+    "SectionName": "Cronjobs",
+    "cACronJobsJP": "http://localhost:8083/api/job/trigger?namespace=ntf-batch&cronJobName=corporate-action-jp-job-stg&jobName=corporate-action-jp-job-stg-05082024-00-00",
+    "cACronJobsUS": "http://localhost:8083/api/job/trigger?namespace=ntf-batch&cronJobName=corporate-action-us-job-stg&jobName=corporate-action-us-job-stg-27082024-00-01",
+    "cronJobAccCancel": "http://localhost:8083/api/job/trigger?namespace=ntf-batch&cronJobName=exp-closeaccdel-histdel-ntfdel-job-stg&jobName=exp-closeaccdel-histdel-ntfdel-job-stg-20241003-00-2",
+    "cronJobMargin": "http://localhost:8083/api/job/trigger?namespace=ntf-batch&cronJobName=margin-alert-job-stg&jobName=margin-alert-job-stg-07082024-00-001",
+    "cronJobLosscut": "http://localhost:8083/api/job/trigger?namespace=ntf-batch&cronJobName=losscut-alert-push-sender-job-stg&jobName=losscut-alert-push-sender-job-stg-07082024-00-00",
+
+
+
+    "SectionName": "price detail for corporateActionalert",
+    "caPrice": 10000,
+
+    "SectionName": "wait time in seconds for triggering the alert.",
+    "waitTime": "40",
+
+    "date": "0805",
+
+    "incrementPercent": 2,
+    "decrementPercent": 2,
+
+    "incrementAmount": 100,
+    "decrementAmount": 100,
+    "previousDayRatioIncrementAmount": 5.0,
+    "previousDayRatioDecrementAmount": 5.0,
+    "dscrCD1": ["3316", "1945", "5423", "9401", "4745", "2760", "3067", "4186", "4635", "5445"],
+    "tickerCD": ["USAU", "USCB", "AAPL", "AADI", "CAT", "USIO", "USB", "ABBV", "TTD", "ABEO"],
+    "indexAlertNippon": ["JPX日経400", "日経225", "TOPIX", "東証プライム市場指数", "東証スタンダード市場指数", "東証グロース市場指数", "旧東証市場第１部指数", "東証スタンダード市場TOP20", "東証グロース市場Core指数", "グロース250指数"],
+    "indexAlertSakiMono": ["日経225先物(期近)", "225ミニ先物(期近)", "TOPIX先物(期近)", "JPX日経400先物(期近)", "グロース先物(期近)", "225先物SGX(期近)"],
+    "indexAlertUS": ["NQ米国大型株", "NQ米国中型株", "NQ米国小型株", "NQ工業株", "NQ銀行株", "NQ保険株"]
+  }
+
+]
+
+

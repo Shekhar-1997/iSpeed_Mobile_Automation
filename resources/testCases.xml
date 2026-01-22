@@ -1,0 +1,112 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Allure_Test 20250804">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+    <test name="JPTest_Suite 20250804_1">
+        <classes>
+            <class name="tests.LoginTest"/>
+<!--            <class name="tests.Navigation"/>-->
+<!--                        <class name="tests.CreateAlertsForMigration"/>-->
+<!--                        <class name="tests.SetAllAlert">-->
+<!--                          <methods>-->
+<!--                              <include name="CreateJPPriceUpAlert"/>-->
+<!--                               <include name="createJPPriceDownAlert"/>-->
+<!--                                <include name="createJPPreviousUpAlert"/>-->
+<!--                                <include name="createJPPreviousDownAlert"/>-->
+
+<!--                                <include name="createPriceUpIndexAlertNippon"/>-->
+<!--                                <include name="createPreviousDayDownIndexAlertNippon"/>-->
+<!--                                <include name="createPrevoiusDayUpIndexAlertNippon"/>-->
+            <!--                    <include name="createPriceDownIndexAlertNippon"/>-->
+
+<!--                                <include name="createPriceUpIndexAlertSakimono"/>-->
+<!--                                <include name="createPriceDownIndexAlertSakimono"/>-->
+            <!--                    <include name="createPrevoiusDayUpIndexAlertSakimono"/>-->
+<!--                                <include name="createPreviousDayDownIndexAlertSakimono"/>-->
+
+<!--                                <include name="createUSPriceUpAlert"/>-->
+<!--                                <include name="createUSPriceDownAlert"/>-->
+<!--                                <include name="createUSpreviousDayUpAlert"/>-->
+            <!--                    <include name="createUSpreviousDayDownAlert"/>-->
+
+<!--                                <include name="createPriceUpIndexAlertUS"/>-->
+            <!--                    <include name="createPriceDownIndexAlertUS"/>-->
+<!--                                <include name="createPrevoiusDayUpIndexAlertUS"/>-->
+            <!--                    <include name="createPreviousDayDownIndexAlertUS"/>-->
+
+<!--                          </methods>-->
+<!--                     </class>-->
+
+            <!--    <class name="tests.CreateAndUpdateAlert">-->
+            <!--            <methods>-->
+            <!--                <include name="jpAlertSetting"/>-->
+            <!--                    <include name="usAlert"/>-->
+            <!--                <include name="indexAlertJP"/>-->
+            <!--                <include name="indexAlertUS"/>-->
+            <!--                <include name="indexAlertFuture"/>-->
+            <!--            </methods>-->
+            <!--    </class>-->
+            <!--            <class name="tests.DisableAllAlert">-->
+            <!--                <methods>-->
+            <!--                    <include name="disableJPAlert"/>-->
+            <!--                    <include name="disableUSAlert"/>-->
+            <!--                    <include name="disableIndexJPAlert"/>-->
+            <!--                    <include name="disableIndexUsAlert"/>-->
+            <!--                    <include name="disableIndexFutureAlert"/>-->
+            <!--                </methods>-->
+            <!--            </class>-->
+            <!--            <class name="tests.CreateAndDisableNewsAlert">-->
+            <!--                <methods>-->
+            <!--                    <include name="createJPNewsAlert"/>-->
+            <!--                    <include name="disableJPNewsAlert"/>-->
+            <!--                    <include name="createUSNewsAlert"/>-->
+            <!--                    <include name="disableUSNewsAlert"/>-->
+            <!--                </methods>-->
+            <!--            </class>-->
+            <!--            <class name="tests.DeleteFromSetting">-->
+            <!--                <methods>-->
+            <!--                    <include name="deleteSingleAlert"/>-->
+            <!--                </methods>-->
+            <!--            </class>-->
+            <!--            <class name="tests.DeleteAlertInStatusList">-->
+            <!--                <methods>-->
+            <!--                    <include name="deleteOneAlertInStatusList"/>-->
+            <!--                </methods>-->
+            <!--            </class>-->
+            <!--            <class name="tests.MultipleAccountSingleUserCreateAlert">-->
+            <!--                <methods>-->
+            <!--                    <include name="mutipleAccountJP"/>-->
+            <!--                    <include name="mutipleAccountUS"/>-->
+            <!--                </methods>-->
+            <!--            </class>-->
+
+<!--                        <class name="tests.OrderExecutionAlert">-->
+<!--                            <methods>-->
+<!--                                <include name="buyOrderJP"/>-->
+            <!--                    <include name="sellOrderJP"/>-->
+            <!--                    <include name="buyOrderUS"/>-->
+            <!--                    <include name="sellOrderUS"/>-->
+<!--                            </methods>-->
+<!--                        </class>-->
+
+            <!--                        <class name="tests.CorporateActionJP"/>-->
+            <!--                        <class name="tests.CorporateActionUS"/>-->
+            <!--                        <class name="tests.LosscutAlertUS"/>-->
+            <!--                        <class name="tests.MarginAlertUS"/>-->
+            <!--                        <class name="tests.WifiManagerADB"/>-->
+            <!--            <class name="tests.AccountCancelation"/>-->
+            <!--            <class name="tests.InactiveUser"/>-->
+            <!--missellenious cases-->
+
+            <!--                        <class name="tests.DeleteAlertInStatusList"/>-->
+            <!--                        <class name="tests.ExpiryAlertPreviousday"/>-->
+            <!--                        <class name="tests.DeviceRegistration"/>-->
+            <!--                        <class name="tests.UnInstall"/>-->
+
+        </classes>
+    </test>
+</suite>
+
+
