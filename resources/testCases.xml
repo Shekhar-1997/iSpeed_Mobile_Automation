@@ -7,37 +7,37 @@
     <test name="JPTest_Suite 20250804_1">
         <classes>
             <class name="tests.LoginTest"/>
-            <class name="tests.Navigation"/>
+            <!--            <class name="tests.Navigation"/>-->
             <!--                        <class name="tests.CreateAlertsForMigration"/>-->
-            <!--                        <class name="tests.SetAllAlert">-->
-            <!--                          <methods>-->
-            <!--                              <include name="CreateJPPriceUpAlert"/>-->
-            <!--                               <include name="createJPPriceDownAlert"/>-->
-            <!--                                <include name="createJPPreviousUpAlert"/>-->
-            <!--                                <include name="createJPPreviousDownAlert"/>-->
+            <class name="tests.SetAllAlert">
+                <methods>
+                    <include name="CreateJPPriceUpAlert"/>
+                    <include name="createJPPriceDownAlert"/>
+<!--                    <include name="createJPPreviousUpAlert"/>-->
+<!--                    <include name="createJPPreviousDownAlert"/>-->
 
-            <!--                                <include name="createPriceUpIndexAlertNippon"/>-->
-            <!--                                <include name="createPreviousDayDownIndexAlertNippon"/>-->
-            <!--                                <include name="createPrevoiusDayUpIndexAlertNippon"/>-->
-            <!--                    <include name="createPriceDownIndexAlertNippon"/>-->
+<!--                    <include name="createPriceUpIndexAlertNippon"/>-->
+<!--                    <include name="createPreviousDayDownIndexAlertNippon"/>-->
+<!--                    <include name="createPrevoiusDayUpIndexAlertNippon"/>-->
+<!--                    <include name="createPriceDownIndexAlertNippon"/>-->
 
-            <!--                                <include name="createPriceUpIndexAlertSakimono"/>-->
-            <!--                                <include name="createPriceDownIndexAlertSakimono"/>-->
-            <!--                    <include name="createPrevoiusDayUpIndexAlertSakimono"/>-->
-            <!--                                <include name="createPreviousDayDownIndexAlertSakimono"/>-->
+<!--                    <include name="createPriceUpIndexAlertSakimono"/>-->
+<!--                    <include name="createPriceDownIndexAlertSakimono"/>-->
+<!--                    <include name="createPrevoiusDayUpIndexAlertSakimono"/>-->
+<!--                    <include name="createPreviousDayDownIndexAlertSakimono"/>-->
 
-            <!--                                <include name="createUSPriceUpAlert"/>-->
-            <!--                                <include name="createUSPriceDownAlert"/>-->
-            <!--                                <include name="createUSpreviousDayUpAlert"/>-->
-            <!--                    <include name="createUSpreviousDayDownAlert"/>-->
+<!--                    <include name="createUSPriceUpAlert"/>-->
+<!--                    <include name="createUSPriceDownAlert"/>-->
+<!--                    <include name="createUSpreviousDayUpAlert"/>-->
+<!--                    <include name="createUSpreviousDayDownAlert"/>-->
 
-            <!--                                <include name="createPriceUpIndexAlertUS"/>-->
-            <!--                    <include name="createPriceDownIndexAlertUS"/>-->
-            <!--                                <include name="createPrevoiusDayUpIndexAlertUS"/>-->
-            <!--                    <include name="createPreviousDayDownIndexAlertUS"/>-->
+<!--                    <include name="createPriceUpIndexAlertUS"/>-->
+<!--                    <include name="createPriceDownIndexAlertUS"/>-->
+<!--                    <include name="createPrevoiusDayUpIndexAlertUS"/>-->
+<!--                    <include name="createPreviousDayDownIndexAlertUS"/>-->
 
-            <!--                          </methods>-->
-            <!--                     </class>-->
+                </methods>
+            </class>
 
             <!--    <class name="tests.CreateAndUpdateAlert">-->
             <!--            <methods>-->
