@@ -66,7 +66,7 @@ public class Navigation extends BaseTest {
 //             "jpStock5": "4745",
 
     //missing prefix: EASL, OS, OS_U,
-    @Test
+    @Test(priority = 1)
     public static void selectStocksInSetting() {
         String userNameValue = userName();
         val = userNameValue.trim();
