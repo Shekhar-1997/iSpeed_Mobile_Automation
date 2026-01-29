@@ -13,10 +13,10 @@
                 <methods>
                     <include name="CreateJPPriceUpAlert"/>
                     <include name="createJPPriceDownAlert"/>
-<!--                    <include name="createJPPreviousUpAlert"/>-->
+                    <include name="createJPPreviousUpAlert"/>
 <!--                    <include name="createJPPreviousDownAlert"/>-->
 
-<!--                    <include name="createPriceUpIndexAlertNippon"/>-->
+                    <include name="createPriceUpIndexAlertNippon"/>
 <!--                    <include name="createPreviousDayDownIndexAlertNippon"/>-->
 <!--                    <include name="createPrevoiusDayUpIndexAlertNippon"/>-->
 <!--                    <include name="createPriceDownIndexAlertNippon"/>-->
